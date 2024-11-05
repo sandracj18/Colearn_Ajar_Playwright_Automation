@@ -1,0 +1,164 @@
+{
+  "config": {
+    "configFile": "/home/sandra/Colearn_Ajar_Playwright_Automation/playwright.config.ts",
+    "rootDir": "/home/sandra/Colearn_Ajar_Playwright_Automation",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/sandra/Colearn_Ajar_Playwright_Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "run-tests",
+        "name": "run-tests",
+        "testDir": "/home/sandra/Colearn_Ajar_Playwright_Automation",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/**/*.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "src/tests/deleteLiveClass.spec.ts",
+      "file": "src/tests/deleteLiveClass.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Live Class Management",
+          "file": "src/tests/deleteLiveClass.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Delete classes from live class page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "run-tests",
+                  "projectName": "run-tests",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 14811,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Logged in successfully.\n"
+                        },
+                        {
+                          "text": "Navigating to live class page...\n"
+                        },
+                        {
+                          "text": "Class 1 deleted.\n"
+                        },
+                        {
+                          "text": "Class 2 deleted.\n"
+                        },
+                        {
+                          "text": "Class 3 deleted.\n"
+                        },
+                        {
+                          "text": "Class 4 deleted.\n"
+                        },
+                        {
+                          "text": "Class 5 deleted.\n"
+                        },
+                        {
+                          "text": "Class 6 deleted.\n"
+                        },
+                        {
+                          "text": "Class 7 deleted.\n"
+                        },
+                        {
+                          "text": "Class 8 deleted.\n"
+                        },
+                        {
+                          "text": "Class 9 deleted.\n"
+                        },
+                        {
+                          "text": "Class 10 deleted.\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-05T12:02:27.756Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/home/sandra/Colearn_Ajar_Playwright_Automation/test-results/src-tests-deleteLiveClass--ed56f-lasses-from-live-class-page-run-tests/test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/sandra/Colearn_Ajar_Playwright_Automation/test-results/src-tests-deleteLiveClass--ed56f-lasses-from-live-class-page-run-tests/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "693784ed89430bae373e-9b21cc2f7851583e0e0c",
+              "file": "src/tests/deleteLiveClass.spec.ts",
+              "line": 12,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-11-05T12:02:27.171Z",
+    "duration": 15729.586,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
